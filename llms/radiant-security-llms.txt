@@ -1,0 +1,200 @@
+# Radiant Security
+
+## Documentation
+
+- [What is Radiant Security?](https://help.radiantsecurity.ai/welcome-to-radiant/what-is-radiant-security.md): Radiant Security automates alert triage, investigation, and response so SOC teams can scale coverage without scaling headcount.
+- [Key Differentiators](https://help.radiantsecurity.ai/welcome-to-radiant/what-is-radiant-security/key-differentiators.md): How Radiant compares to other AI SOC platforms and legacy SIEM solutions across alert coverage, response, and log management.
+- [The Radiant Data Pipeline](https://help.radiantsecurity.ai/welcome-to-radiant/what-is-radiant-security/the-radiant-data-pipeline.md): A comprehensive overview of how security data flows through Radiant.
+- [Platform Architecture](https://help.radiantsecurity.ai/welcome-to-radiant/what-is-radiant-security/platform-architecture.md): A high-level overview of the Radiant platform architecture.
+- [Get Started](https://help.radiantsecurity.ai/welcome-to-radiant/get-started.md): Use this guide to find the right starting point based on your role.
+- [Admin Quickstart](https://help.radiantsecurity.ai/welcome-to-radiant/get-started/admin-quickstart.md): Plan for approximately 30 minutes to complete all steps.
+- [User Quickstart](https://help.radiantsecurity.ai/welcome-to-radiant/get-started/user-quickstart.md): Get oriented in Radiant and start triaging alerts in minutes.
+- [Key Concepts and Glossary](https://help.radiantsecurity.ai/welcome-to-radiant/get-started/user-quickstart/key-concepts-and-glossary.md): Key terms used throughout the Radiant Security platform and its documentation. Intended for security analysts, team leads, and administrators.
+- [Support](https://help.radiantsecurity.ai/welcome-to-radiant/support.md)
+- [Get Help](https://help.radiantsecurity.ai/welcome-to-radiant/support/get-help.md): Access support resources, submit feedback, and reach the Radiant Security team directly from within the platform.
+- [Connectors and Data Ingestion](https://help.radiantsecurity.ai/radiant-connectors/connectors-and-data-ingestion.md): Connect your security stack to Radiant, ingest alerts and threat intelligence, and configure storage for your security logs.
+- [Choose the Right Connection Method](https://help.radiantsecurity.ai/radiant-connectors/connectors-and-data-ingestion/choose-the-right-connection-method.md): Compare Radiant Security ingestion methods (Agent, API connector, webhook, Syslog, AWS S3) and pick the right one for each data source.
+- [Phishing email forwarding overview](https://help.radiantsecurity.ai/radiant-connectors/connectors-and-data-ingestion/phishing-email-forwarding-overview.md): Set up phishing and BEC report forwarding from Microsoft 365, Google Workspace, KnowBe4, or Proofpoint PhishAlarm into Radiant Security.
+- [Forward phishing emails from Outlook on the web](https://help.radiantsecurity.ai/radiant-connectors/connectors-and-data-ingestion/phishing-email-forwarding-overview/forward-phishing-emails-from-outlook-on-the-web.md): Use Outlook on the web inbox rules to forward user-reported phishing emails to Radiant Security from a single mailbox without changing tenant-wide forwarding policy.
+- [Forward phishing emails from Gmail](https://help.radiantsecurity.ai/radiant-connectors/connectors-and-data-ingestion/phishing-email-forwarding-overview/forward-phishing-emails-from-gmail.md): Configure Gmail or Google Workspace to forward user-reported phishing emails to Radiant Security using a group, a dedicated inbox, or a default route.
+- [Forward phishing emails from KnowBe4](https://help.radiantsecurity.ai/radiant-connectors/connectors-and-data-ingestion/phishing-email-forwarding-overview/forward-phishing-emails-from-knowbe4.md): Configure the KnowBe4 Phish Alert Button to forward user-reported phishing emails to Radiant Security on Microsoft 365 or via the Chrome extension.
+- [Forward phishing emails from Microsoft 365](https://help.radiantsecurity.ai/radiant-connectors/connectors-and-data-ingestion/phishing-email-forwarding-overview/forward-phishing-emails-from-microsoft-365.md): Configure Microsoft 365 to forward user-reported phishing emails to Radiant Security using the built-in Report Phishing button.
+- [Forward phishing emails from Proofpoint PhishAlarm](https://help.radiantsecurity.ai/radiant-connectors/connectors-and-data-ingestion/phishing-email-forwarding-overview/forward-phishing-emails-from-proofpoint-phishalarm.md): Configure the Proofpoint PhishAlarm button to forward user-reported phishing emails to Radiant Security.
+- [Threat Intelligence Hub](https://help.radiantsecurity.ai/radiant-connectors/threat-intelligence-hub.md): Radiant's unified enrichment layer combining Radiant built-in feeds (rTIS) and customer-supplied threat intelligence (cTIS) for AI triage.
+- [Built-in threat intelligence feeds](https://help.radiantsecurity.ai/radiant-connectors/threat-intelligence-hub/built-in-threat-intelligence-feeds.md): How Radiant TIS (rTIS) enriches every alert by default.
+- [Connect your own threat intelligence](https://help.radiantsecurity.ai/radiant-connectors/threat-intelligence-hub/connect-your-own-threat-intelligence.md): How Client TIS (cTIS) lets you connect your own threat intelligence subscriptions to Radiant alongside Radiant's built-in feeds.
+- [VirusTotal](https://help.radiantsecurity.ai/radiant-connectors/threat-intelligence-hub/connect-your-own-threat-intelligence/virustotal.md): Connect VirusTotal to Radiant as client TIS (cTIS) so file, URL, domain, and IP results enrich every alert.
+- [Data Connectors](https://help.radiantsecurity.ai/radiant-connectors/data-connectors.md): Welcome to data connectors documentation.
+- [Cloud & Infrastructure](https://help.radiantsecurity.ai/radiant-connectors/cloud-and-infrastructure.md)
+- [AWS](https://help.radiantsecurity.ai/radiant-connectors/cloud-and-infrastructure/aws.md)
+- [AWS API](https://help.radiantsecurity.ai/radiant-connectors/cloud-and-infrastructure/aws/aws-api.md): Connect Radiant to your AWS account via the AWS API connector to query live resource configurations during Enrichment.
+- [AWS CloudTrail](https://help.radiantsecurity.ai/radiant-connectors/cloud-and-infrastructure/aws/aws-cloudtrail.md): Set up the AWS CloudTrail connector.
+- [AWS CloudTrail and GuardDuty](https://help.radiantsecurity.ai/radiant-connectors/cloud-and-infrastructure/aws/aws-cloudtrail-and-guardduty.md): Set up AWS CloudTrail and GuardDuty connectors.
+- [Test GuardDuty’s integration with Radiant](https://help.radiantsecurity.ai/radiant-connectors/cloud-and-infrastructure/aws/aws-cloudtrail-and-guardduty/test-guarddutys-integration-with-radiant.md): Test your AWS integration with a GuardDuty automation script.
+- [Azure Activities](https://help.radiantsecurity.ai/radiant-connectors/cloud-and-infrastructure/azure-activities.md): Connect Azure Activities to Radiant Security to forward subscription-level events for AI triage.
+- [CrowdStrike Falcon CSPM](https://help.radiantsecurity.ai/radiant-connectors/cloud-and-infrastructure/crowdstrike-falcon-cspm.md): Configure Radiant Security to sync CrowdStrike CSPM alerts.
+- [Generate CrowdStrike Falcon CSPM Read-Only Credentials](https://help.radiantsecurity.ai/radiant-connectors/cloud-and-infrastructure/crowdstrike-falcon-cspm/generate-crowdstrike-falcon-cspm-read-only-credentials.md): Create CrowdStrike Falcon CSPM read-only credentials and forward them to Radiant Security securely.
+- [Google Cloud](https://help.radiantsecurity.ai/radiant-connectors/cloud-and-infrastructure/google-cloud.md)
+- [GCP Audit Logs](https://help.radiantsecurity.ai/radiant-connectors/cloud-and-infrastructure/google-cloud/gcp-audit-logs.md): Connect GCP Audit Logs to Radiant Security to forward Google Cloud activity logs for AI triage.
+- [Google Cloud Security Command Center (SCC)](https://help.radiantsecurity.ai/radiant-connectors/cloud-and-infrastructure/google-cloud/google-cloud-security-command-center-scc.md): Connect Google Cloud Security Command Center to Radiant Security to ingest GCP security alerts for AI triage.
+- [Palo Alto Networks Prisma Cloud](https://help.radiantsecurity.ai/radiant-connectors/cloud-and-infrastructure/palo-alto-networks-prisma-cloud.md): Connect Palo Alto Networks Prisma Cloud to Radiant Security to forward cloud security alerts for AI triage.
+- [Data Security & Insider Threat](https://help.radiantsecurity.ai/radiant-connectors/data-security-and-insider-threat.md)
+- [Adaptive Shield](https://help.radiantsecurity.ai/radiant-connectors/data-security-and-insider-threat/adaptive-shield.md): Connect Adaptive Shield to Radiant Security to forward SaaS security posture alerts for AI triage.
+- [Airlock Digital](https://help.radiantsecurity.ai/radiant-connectors/data-security-and-insider-threat/airlock-digital.md): Connect Airlock Digital to Radiant Security to forward execution telemetry and sensor information for AI triage.
+- [GitHub Enterprise](https://help.radiantsecurity.ai/radiant-connectors/data-security-and-insider-threat/github-enterprise.md): Configure GitHub Enterprise audit log streaming to forward audit and Git events to Radiant Security via Amazon S3.
+- [Salt Security](https://help.radiantsecurity.ai/radiant-connectors/data-security-and-insider-threat/salt-security.md): Connect Salt Security to Radiant Security to forward API attacker and remediation events for AI triage.
+- [Varonis DatAlert](https://help.radiantsecurity.ai/radiant-connectors/data-security-and-insider-threat/varonis-datalert.md): Connect Varonis DatAlert to Radiant Security to forward alerts for AI triage.
+- [Email & Collaboration](https://help.radiantsecurity.ai/radiant-connectors/email-and-collaboration.md)
+- [Barracuda Email Gateway Defense](https://help.radiantsecurity.ai/radiant-connectors/email-and-collaboration/barracuda-email-gateway-defense.md): Connect Barracuda Email Gateway Defense to Radiant Security to forward email security logs for AI triage.
+- [Check Point Avanan](https://help.radiantsecurity.ai/radiant-connectors/email-and-collaboration/check-point-avanan.md): Connect Check Point Avanan to Radiant Security to forward email security alerts for AI triage.
+- [Darktrace Email](https://help.radiantsecurity.ai/radiant-connectors/email-and-collaboration/darktrace-email.md): Connect Darktrace Email to Radiant Security to forward email alerts for AI triage.
+- [Google Workspace](https://help.radiantsecurity.ai/radiant-connectors/email-and-collaboration/google-workspace.md): Connect Google Workspace to Radiant Security to ingest email, authentication, and IAM activity for AI triage.
+- [Execute Response Actions with Google Workspace](https://help.radiantsecurity.ai/radiant-connectors/email-and-collaboration/google-workspace/execute-response-actions-with-google-workspace.md): Configure the action connector for Google Workspace.
+- [KnowBe4](https://help.radiantsecurity.ai/radiant-connectors/email-and-collaboration/knowbe4.md)
+- [Execute Response Actions with KnowBe4](https://help.radiantsecurity.ai/radiant-connectors/email-and-collaboration/knowbe4/execute-response-actions-with-knowbe4.md): Configure the action connector for KnowBe4.
+- [Microsoft O365](https://help.radiantsecurity.ai/radiant-connectors/email-and-collaboration/microsoft-o365.md): Onboard the Microsoft O365 data connector.
+- [Microsoft Safe Links](https://help.radiantsecurity.ai/radiant-connectors/email-and-collaboration/microsoft-o365/microsoft-safe-links.md): Connect Microsoft Safe Links to Radiant Security to forward click events for AI triage.
+- [Microsoft O365 Expired Client Secret Key](https://help.radiantsecurity.ai/radiant-connectors/email-and-collaboration/microsoft-o365/microsoft-o365-expired-client-secret-key.md): Update your expired client secret key.
+- [Execute Response Actions with Microsoft O365 (certificate)](https://help.radiantsecurity.ai/radiant-connectors/email-and-collaboration/microsoft-o365/execute-response-actions-with-microsoft-o365-certificate.md): Configure the action connector for Microsoft O365 (certificate).
+- [Mimecast API 2.0](https://help.radiantsecurity.ai/radiant-connectors/email-and-collaboration/mimecast-api-2.0.md): Configure the Mimecast API 2.0 data connector.
+- [Proofpoint TAP](https://help.radiantsecurity.ai/radiant-connectors/email-and-collaboration/proofpoint-tap.md): Connect Proofpoint TAP to Radiant Security to forward URL Defense click events for AI triage.
+- [Execute Response Actions with Proofpoint TAP](https://help.radiantsecurity.ai/radiant-connectors/email-and-collaboration/proofpoint-tap/execute-response-actions-with-proofpoint-tap.md): Configure the action connector for Proofpoint.
+- [Endpoint](https://help.radiantsecurity.ai/radiant-connectors/endpoint.md)
+- [Cisco](https://help.radiantsecurity.ai/radiant-connectors/endpoint/cisco.md)
+- [Cisco Secure Endpoint](https://help.radiantsecurity.ai/radiant-connectors/endpoint/cisco/cisco-secure-endpoint.md): Connect Cisco Secure Endpoint to Radiant Security to forward endpoint alerts for AI triage.
+- [Cisco Orbital Query](https://help.radiantsecurity.ai/radiant-connectors/endpoint/cisco/cisco-orbital-query.md): Connect Cisco Orbital Query to Radiant Security for on-demand endpoint queries during AI triage and investigation.
+- [Crowdstrike FDR](https://help.radiantsecurity.ai/radiant-connectors/endpoint/crowdstrike-fdr.md): Pull Crowdstrike FDR endpoint data.
+- [CrowdStrike OAuth2](https://help.radiantsecurity.ai/radiant-connectors/endpoint/crowdstrike-oauth2.md): Configure Radiant Security to sync CrowdStrike data.
+- [Execute Response Actions with Crowdstrike OAuth2](https://help.radiantsecurity.ai/radiant-connectors/endpoint/crowdstrike-oauth2/execute-response-actions-with-crowdstrike-oauth2.md): Configure the action connector for Crowdstrike OAuth2.
+- [FireEye HX](https://help.radiantsecurity.ai/radiant-connectors/endpoint/fireeye-hx.md): Connect FireEye HX (now Trellix Endpoint Security HX) to Radiant Security to forward alerts and host data through Cribl Stream for AI triage.
+- [Microsoft Defender for Endpoint](https://help.radiantsecurity.ai/radiant-connectors/endpoint/microsoft-defender-for-endpoint.md)
+- [Add Microsoft Defender Permissions](https://help.radiantsecurity.ai/radiant-connectors/endpoint/microsoft-defender-for-endpoint/add-microsoft-defender-permissions.md): Add the Microsoft Defender data connector.
+- [Defender for Endpoint via Event Hub](https://help.radiantsecurity.ai/radiant-connectors/endpoint/microsoft-defender-for-endpoint/defender-for-endpoint-via-event-hub.md): Add the Microsoft Defender via Event Hub data connector.
+- [Onboard Hosts to Microsoft Defender for Endpoint](https://help.radiantsecurity.ai/radiant-connectors/endpoint/microsoft-defender-for-endpoint/onboard-hosts-to-microsoft-defender-for-endpoint.md): Obtain the list of assets that do not require onboarding to Defender for Endpoint.
+- [SentinelOne](https://help.radiantsecurity.ai/radiant-connectors/endpoint/sentinelone.md)
+- [SentinelOne Cloud Funnel](https://help.radiantsecurity.ai/radiant-connectors/endpoint/sentinelone/sentinelone-cloud-funnel.md): Connect SentinelOne Cloud Funnel to Radiant Security to forward EDR telemetry for AI triage.
+- [SentinelOne Deep Visibility](https://help.radiantsecurity.ai/radiant-connectors/endpoint/sentinelone/sentinelone-deep-visibility.md): Connect SentinelOne Deep Visibility to Radiant Security to forward EDR alerts and sensor information for AI triage.
+- [SentinelOne Deep Visibility: Set the API Key Expiry](https://help.radiantsecurity.ai/radiant-connectors/endpoint/sentinelone/sentinelone-deep-visibility/sentinelone-deep-visibility-set-the-api-key-expiry.md): Generate new credentials for the SentinelOne connector.
+- [Execute Response Actions with SentinelOne](https://help.radiantsecurity.ai/radiant-connectors/endpoint/sentinelone/sentinelone-deep-visibility/execute-response-actions-with-sentinelone.md): Configure the action connector for SentinelOne.
+- [SentinelOne Singularity Data Lake](https://help.radiantsecurity.ai/radiant-connectors/endpoint/sentinelone/sentinelone-singularity-data-lake.md): Connect SentinelOne Singularity Data Lake to Radiant Security to query endpoint telemetry during AI triage.
+- [Sophos Intercept X](https://help.radiantsecurity.ai/radiant-connectors/endpoint/sophos-intercept-x.md): Connect Sophos Intercept X to Radiant Security to ingest endpoint alerts from Sophos Central for AI triage.
+- [Trend Micro](https://help.radiantsecurity.ai/radiant-connectors/endpoint/trend-micro.md)
+- [Trend Micro Apex Central](https://help.radiantsecurity.ai/radiant-connectors/endpoint/trend-micro/trend-micro-apex-central.md): Configure the Trend Micro Apex Central syslog connector in Radiant Security to forward Apex Central logs for AI triage.
+- [Trend Vision One](https://help.radiantsecurity.ai/radiant-connectors/endpoint/trend-micro/trend-vision-one.md): Configure the Trend Vision One data connector in Radiant Security to ingest alerts and telemetry for AI triage.
+- [Create a Trend Micro Vision One API Token](https://help.radiantsecurity.ai/radiant-connectors/endpoint/trend-micro/trend-vision-one/create-a-trend-micro-vision-one-api-token.md): Learn how to create a Trend Micro Vision One API Token.
+- [Identity & Access](https://help.radiantsecurity.ai/radiant-connectors/identity-and-access.md)
+- [1Password](https://help.radiantsecurity.ai/radiant-connectors/identity-and-access/1password.md): Connect 1Password to Radiant Security to forward sign-in attempts, item usage, and audit events for AI triage.
+- [ADAudit Plus](https://help.radiantsecurity.ai/radiant-connectors/identity-and-access/adaudit-plus.md): Connect ManageEngine ADAudit Plus to Radiant Security to forward Active Directory audit events for AI triage.
+- [Cisco Duo](https://help.radiantsecurity.ai/radiant-connectors/identity-and-access/cisco-duo.md): Connect Cisco Duo to ingest MFA and authentication activity into Radiant for AI triage.
+- [Google Workspace IAM only](https://help.radiantsecurity.ai/radiant-connectors/identity-and-access/google-workspace-iam-only.md): Onboard the Google Workspace IAM and Email data connectors.
+- [Keycloak](https://help.radiantsecurity.ai/radiant-connectors/identity-and-access/keycloak.md): Connect Keycloak to Radiant Security to forward authentication activity for AI triage.
+- [Okta](https://help.radiantsecurity.ai/radiant-connectors/identity-and-access/okta.md): Connect Okta to Radiant Security to forward authentication and admin activity logs for AI triage, and enable identity response actions. -
+- [Network Security](https://help.radiantsecurity.ai/radiant-connectors/network-security.md)
+- [Akamai CDN](https://help.radiantsecurity.ai/radiant-connectors/network-security/akamai-cdn.md): Connect Akamai CDN to Radiant Security to forward edge access logs via Amazon S3 for AI triage.
+- [Aruba ClearPass](https://help.radiantsecurity.ai/radiant-connectors/network-security/aruba-clearpass.md): Connect Aruba ClearPass to Radiant Security to forward authentication, authorization, and accounting logs for AI triage.
+- [Check Point Firewall](https://help.radiantsecurity.ai/radiant-connectors/network-security/check-point-firewall.md): Connect Check Point Firewall to Radiant Security to forward security log events for AI triage.
+- [Cisco](https://help.radiantsecurity.ai/radiant-connectors/network-security/cisco.md)
+- [Cisco ASA](https://help.radiantsecurity.ai/radiant-connectors/network-security/cisco/cisco-asa.md): Connect Cisco ASA to Radiant Security to forward firewall and IPS syslog alerts for AI triage.
+- [Cisco FTD](https://help.radiantsecurity.ai/radiant-connectors/network-security/cisco/cisco-ftd.md): Connect Cisco FTD to Radiant Security to forward firewall and intrusion event syslog for AI triage.
+- [Cisco ISE](https://help.radiantsecurity.ai/radiant-connectors/network-security/cisco/cisco-ise.md): Configure the Cisco ISE connector in Radiant Security to forward Cisco Identity Services Engine authentication and audit logs for AI triage.
+- [Cisco Meraki](https://help.radiantsecurity.ai/radiant-connectors/network-security/cisco/cisco-meraki.md): Configure the Cisco Meraki connector in Radiant Security to forward Meraki syslog traffic for AI triage.
+- [Cloudflare WAF](https://help.radiantsecurity.ai/radiant-connectors/network-security/cloudflare-waf.md): Connect Cloudflare WAF to Radiant Security to forward HTTP request logs and firewall events for AI triage.
+- [Darktrace NDR](https://help.radiantsecurity.ai/radiant-connectors/network-security/darktrace-ndr.md): Connect Darktrace NDR to Radiant Security to forward AI Analyst and Model Breach alerts for AI triage.
+- [Dragos Platform](https://help.radiantsecurity.ai/radiant-connectors/network-security/dragos-platform.md): Connect Dragos Platform to Radiant Security to forward OT and ICS security alerts for AI triage.
+- [Forcepoint](https://help.radiantsecurity.ai/radiant-connectors/network-security/forcepoint.md)
+- [Forcepoint NGFW](https://help.radiantsecurity.ai/radiant-connectors/network-security/forcepoint/forcepoint-ngfw.md): Connect Forcepoint NGFW to Radiant Security to forward firewall logs for AI triage.
+- [Forcepoint ONE](https://help.radiantsecurity.ai/radiant-connectors/network-security/forcepoint/forcepoint-one.md): Connect Forcepoint ONE to Radiant Security to forward web, DLP, cloud, and admin logs for AI triage.
+- [Fortinet](https://help.radiantsecurity.ai/radiant-connectors/network-security/fortinet.md)
+- [Fortinet Fortigate (syslog)](https://help.radiantsecurity.ai/radiant-connectors/network-security/fortinet/fortinet-fortigate-syslog.md): Configure Fortinet Fortigate for syslog log forwarding to Radiant Security.
+- [Fortinet FortiAnalyzer](https://help.radiantsecurity.ai/radiant-connectors/network-security/fortinet/fortinet-fortianalyzer.md): Connect Fortinet FortiAnalyzer to Radiant Security to forward aggregated FortiGate firewall and threat syslog for AI triage.
+- [Fortinet FortiGate](https://help.radiantsecurity.ai/radiant-connectors/network-security/fortinet/fortinet-fortigate.md): Connect Fortinet FortiGate to Radiant Security to forward firewall and threat syslog for AI triage.
+- [Imperva Cloud WAF](https://help.radiantsecurity.ai/radiant-connectors/network-security/imperva-cloud-waf.md): Connect Imperva Cloud WAF to Radiant Security to forward security and access logs for AI triage.
+- [Ivanti Connect Secure (Pulse Secure VPN)](https://help.radiantsecurity.ai/radiant-connectors/network-security/ivanti-connect-secure-pulse-secure-vpn.md): Configure Ivanti Connect Secure (formerly known as Pulse Secure VPN) for syslog log forwarding to Radiant Security.
+- [Linux Server Logs](https://help.radiantsecurity.ai/radiant-connectors/network-security/linux-server-logs.md): Connect Linux servers to Radiant Security to forward rsyslog system logs for AI triage.
+- [Netskope](https://help.radiantsecurity.ai/radiant-connectors/network-security/netskope.md): Connect Netskope to Radiant Security to forward alerts and events for AI triage.
+- [Execute Response Actions with  Netskope](https://help.radiantsecurity.ai/radiant-connectors/network-security/netskope/execute-response-actions-with-netskope.md): Configure the action connector for Netskope.
+- [Palo Alto Networks](https://help.radiantsecurity.ai/radiant-connectors/network-security/palo-alto-networks.md)
+- [Palo Alto Networks Firewall](https://help.radiantsecurity.ai/radiant-connectors/network-security/palo-alto-networks/palo-alto-networks-firewall.md): Connect Palo Alto Networks Firewall to Radiant Security to forward firewall and threat logs for AI triage.
+- [Execute Response Actions with Palo Alto Networks PAN-OS](https://help.radiantsecurity.ai/radiant-connectors/network-security/palo-alto-networks/palo-alto-networks-firewall/execute-response-actions-with-palo-alto-networks-pan-os.md): Configure the action connector for Palo Alto Networks PAN-OS.
+- [Palo Alto Networks Panorama](https://help.radiantsecurity.ai/radiant-connectors/network-security/palo-alto-networks/palo-alto-networks-panorama.md): Connect Palo Alto Networks Panorama to Radiant Security to forward aggregated firewall logs for AI triage.
+- [Palo Alto Networks Prisma Access](https://help.radiantsecurity.ai/radiant-connectors/network-security/palo-alto-networks/palo-alto-networks-prisma-access.md): Connect Palo Alto Networks Prisma Access to Radiant Security to forward traffic, threat, and access logs for AI triage.
+- [Palo Alto Networks Strata](https://help.radiantsecurity.ai/radiant-connectors/network-security/palo-alto-networks/palo-alto-networks-strata.md): Connect Palo Alto Networks Strata to Radiant Security to forward firewall traffic and threat logs for AI triage.
+- [SonicWall](https://help.radiantsecurity.ai/radiant-connectors/network-security/sonicwall.md): Connect SonicWall to Radiant Security to forward firewall syslog for AI triage.
+- [Execute Response Actions with SonicWall](https://help.radiantsecurity.ai/radiant-connectors/network-security/sonicwall/execute-response-actions-with-sonicwall.md): Configure the action connector for SonicWall.
+- [Suricata IDS](https://help.radiantsecurity.ai/radiant-connectors/network-security/suricata-ids.md): Connect Suricata IDS to Radiant Security to forward intrusion detection alerts for AI triage.
+- [Vectra](https://help.radiantsecurity.ai/radiant-connectors/network-security/vectra.md)
+- [Vectra NDR](https://help.radiantsecurity.ai/radiant-connectors/network-security/vectra/vectra-ndr.md): Connect Vectra NDR to Radiant Security to forward network alerts via syslog for AI triage.
+- [Vectra Stream](https://help.radiantsecurity.ai/radiant-connectors/network-security/vectra/vectra-stream.md): Connect Vectra Stream to Radiant Security to forward network metadata via syslog for AI triage.
+- [WatchGuard Firewall](https://help.radiantsecurity.ai/radiant-connectors/network-security/watchguard-firewall.md): Connect WatchGuard Firewall to Radiant Security to forward syslog for AI triage.
+- [Windows Event Logs](https://help.radiantsecurity.ai/radiant-connectors/network-security/windows-event-logs.md): Connect Windows Event Logs to Radiant Security to forward DHCP, DNS, and Windows server event logs through a Radiant Agent for AI triage.
+- [Zscaler](https://help.radiantsecurity.ai/radiant-connectors/network-security/zscaler.md)
+- [ZScaler Cloud NSS](https://help.radiantsecurity.ai/radiant-connectors/network-security/zscaler/zscaler-cloud-nss.md): Connect Zscaler Cloud NSS to Radiant Security to forward web, firewall, DNS, and DLP logs over HTTPS for AI triage.
+- [ZScaler NSS On-Prem](https://help.radiantsecurity.ai/radiant-connectors/network-security/zscaler/zscaler-nss-on-prem.md): Connect Zscaler NSS On-Prem to Radiant Security to forward web, firewall, DNS, and DLP logs over syslog for AI triage.
+- [Execute Response Actions with Zscaler OneAPI](https://help.radiantsecurity.ai/radiant-connectors/network-security/zscaler/zscaler-nss-on-prem/execute-response-actions-with-zscaler-oneapi.md): Configure the Zscaler OneAPI action connector to enable URL containment and remediation tasks during phishing response.
+- [ZScaler ZPA](https://help.radiantsecurity.ai/radiant-connectors/network-security/zscaler/zscaler-zpa.md): Connect Zscaler ZPA to Radiant Security to forward user activity, authentication, and application access logs through the Radiant Agent for AI triage.
+- [SIEM & Security Analytics](https://help.radiantsecurity.ai/radiant-connectors/siem-and-security-analytics.md)
+- [CrowdStrike Falcon Next-Gen SIEM Events](https://help.radiantsecurity.ai/radiant-connectors/siem-and-security-analytics/crowdstrike-falcon-next-gen-siem-events.md): Configure Radiant Security to sync CrowdStrike Next-Gen SIEM Events.
+- [Elastic SIEM](https://help.radiantsecurity.ai/radiant-connectors/siem-and-security-analytics/elastic-siem.md): Forward alerts from Elastic SIEM to Radiant Security using a webhook connector and rule actions.
+- [Jira](https://help.radiantsecurity.ai/radiant-connectors/siem-and-security-analytics/jira.md): Configure Jira to forward webhook notifications each time a relevant issue is created.
+- [Palo Alto Networks Cortex XSIAM](https://help.radiantsecurity.ai/radiant-connectors/siem-and-security-analytics/palo-alto-networks-cortex-xsiam.md): Connect Palo Alto Networks Cortex XSIAM to Radiant Security to forward alerts and events for AI triage.
+- [Rapid7 InsightIDR](https://help.radiantsecurity.ai/radiant-connectors/siem-and-security-analytics/rapid7-insightidr.md): Connect Rapid7 InsightIDR to Radiant Security to forward alerts for AI triage.
+- [Splunk](https://help.radiantsecurity.ai/radiant-connectors/siem-and-security-analytics/splunk.md): Connect Splunk to Radiant Security to forward alerts for AI triage.
+- [StellarCyber Alerts](https://help.radiantsecurity.ai/radiant-connectors/siem-and-security-analytics/stellarcyber-alerts.md): Configure StellarCyber to forward alerts to Radiant Security.
+- [Wazuh Correlation Rule Alerts via Webhook](https://help.radiantsecurity.ai/radiant-connectors/siem-and-security-analytics/wazuh-correlation-rule-alerts-via-webhook.md): Send Wazuh correlation rule alerts to Radiant Security via HTTPS webhook.
+- [Ingestion Methods](https://help.radiantsecurity.ai/radiant-connectors/ingestion-methods.md)
+- [Install the Radiant Security Agent](https://help.radiantsecurity.ai/radiant-connectors/ingestion-methods/install-the-radiant-security-agent.md): Send your logs to Radiant Security's S3 environment for analysis.
+- [Configure Amazon S3 to forward logs to Radiant Security](https://help.radiantsecurity.ai/radiant-connectors/ingestion-methods/configure-amazon-s3-to-forward-logs-to-radiant-security.md): Ingest any type of logs into Radiant Security through our S3 data connector.
+- [Custom Alerts Webhook](https://help.radiantsecurity.ai/radiant-connectors/ingestion-methods/custom-alerts-webhook.md): Send alerts from unsupported data sources to Radiant Security for AI triage
+- [Custom Events Webhook](https://help.radiantsecurity.ai/radiant-connectors/ingestion-methods/custom-events-webhook.md): Send events from unsupported data sources to Radiant Security
+- [Communication Tools](https://help.radiantsecurity.ai/radiant-connectors/communication-tools.md)
+- [Microsoft Teams](https://help.radiantsecurity.ai/radiant-connectors/communication-tools/microsoft-teams.md): Onboard the Microsoft Teams connector to Radiant Security
+- [Slack](https://help.radiantsecurity.ai/radiant-connectors/communication-tools/slack.md): Onboard the Slack connector to Radiant Security.
+- [Radiant Alerts](https://help.radiantsecurity.ai/radiant-alerts/radiant-alerts.md): Understand how Radiant triages, enriches, and presents security alerts.
+- [Alert Deduplication](https://help.radiantsecurity.ai/radiant-alerts/radiant-alerts/alert-deduplication.md): Deduplicate repetitive alerts from noisy security tools and consolidate them into a single, primary alert.
+- [Radiant Cases](https://help.radiantsecurity.ai/radiant-cases/radiant-cases.md): Transition from alert triage to full incident management with dedicated Cases.
+- [Escalate and Manage Cases](https://help.radiantsecurity.ai/radiant-cases/radiant-cases/escalate-and-manage-cases.md): Create cases from alerts, assign ownership, and manage the investigation lifecycle.
+- [Response Actions](https://help.radiantsecurity.ai/radiant-cases/radiant-cases/response-actions.md): Understand the response actions that appear in your cases.
+- [Response Actions in Cases](https://help.radiantsecurity.ai/radiant-cases/radiant-cases/response-actions-in-cases.md): Execute coordinated remediation actions on specific artifacts within a case.
+- [Audit Response Actions](https://help.radiantsecurity.ai/radiant-cases/radiant-cases/audit-response-actions.md): Verify remediation steps and troubleshoot failures using Audit Logs.
+- [Artifact Reference Guide](https://help.radiantsecurity.ai/radiant-cases/radiant-cases/artifact-reference-guide.md): Understand the artifacts and objects that appear in your alerts and cases.
+- [Audit Logs](https://help.radiantsecurity.ai/log-management/audit-logs.md)
+- [Introduction to Audit Logs](https://help.radiantsecurity.ai/log-management/audit-logs/introduction-to-audit-logs.md): Review system activity and maintain accountability.
+- [Bring Your Own Bucket (BYOB)](https://help.radiantsecurity.ai/log-management/bring-your-own-bucket-byob.md)
+- [Bring your own bucket for Log Management](https://help.radiantsecurity.ai/log-management/bring-your-own-bucket-byob/bring-your-own-bucket-for-log-management.md): Bring your own AWS bucket to Radiant Security and manage your logs using the new Log Management feature.
+- [Bring your own bucket for Log Management with Terraform](https://help.radiantsecurity.ai/log-management/bring-your-own-bucket-byob/bring-your-own-bucket-for-log-management-with-terraform.md): Bring your own AWS bucket to Radiant Security and manage your logs using the new Log Management feature.
+- [Grafana Plug-in](https://help.radiantsecurity.ai/log-management/grafana-plug-in.md): Visualize and analyze your security data with the Radiant Security Grafana plug-in.
+- [Install the Grafana Plug-In to Query Events in the Radiant Log Manager](https://help.radiantsecurity.ai/log-management/grafana-plug-in/install-the-grafana-plug-in-to-query-events-in-the-radiant-log-manager.md): Enable Grafana access to events stored in the Radiant Log Manager to create custom dashboards and visualizations.
+- [Install the Grafana OpenSearch Plug-In to Query Radiant Alerts](https://help.radiantsecurity.ai/log-management/grafana-plug-in/install-the-grafana-opensearch-plug-in-to-query-radiant-alerts.md): Enable Grafana access to Radiant Alerts to create custom dashboards and visualizations.
+- [Log Search and Query](https://help.radiantsecurity.ai/log-management/log-search-and-query.md)
+- [Craft search queries in Log Management](https://help.radiantsecurity.ai/log-management/log-search-and-query/craft-search-queries-in-log-management.md): Learn how to effectively query Log Management to filter and sort through log data to find the information you need.
+- [Export Search Results from Log Management](https://help.radiantsecurity.ai/log-management/log-search-and-query/export-search-results-from-log-management.md): Export the complete result set of a Log Management search in Radiant Security and download it through a secure, time-limited link.
+- [Search Query API Reference](https://help.radiantsecurity.ai/log-management/log-search-and-query/search-query-api-reference.md): Query raw events in Log Management programmatically using the Quickwit-compatible multi-search endpoint.
+- [Storage and Retention](https://help.radiantsecurity.ai/log-management/storage-and-retention.md): Learn how Radiant Log Management stores your security data and what retention options are available for your organization.
+- [Outgoing Webhooks](https://help.radiantsecurity.ai/export-logs/outgoing-webhooks.md)
+- [Set up Outgoing Webhooks](https://help.radiantsecurity.ai/export-logs/outgoing-webhooks/set-up-outgoing-webhooks.md): Connect Radiant Security outgoing webhooks to forward real-time alert status and connector status error updates to your systems.
+- [Set up Jira to Receive Radiant Outgoing Webhooks](https://help.radiantsecurity.ai/export-logs/outgoing-webhooks/set-up-jira-to-receive-radiant-outgoing-webhooks.md): Create Jira tasks from Radiant Incoming webhooks.
+- [Security Operations Insights](https://help.radiantsecurity.ai/manage-radiant/security-operations-insights.md): Leverage Insights to unlock actionable data points within your SOC operations.
+- [Alert Filters](https://help.radiantsecurity.ai/manage-radiant/alert-filters.md): Suppress low-fidelity alerts before they reach the triage pipeline to reduce noise and focus analyst attention on real threats.
+- [Organization Settings](https://help.radiantsecurity.ai/manage-radiant/organization-settings.md)
+- [Security](https://help.radiantsecurity.ai/manage-radiant/organization-settings/security.md)
+- [Set Up Single Sign-On (SSO)](https://help.radiantsecurity.ai/manage-radiant/organization-settings/security/set-up-single-sign-on-sso.md): Set up SSO with your identity provider to provide secure, centralized access to Radiant.
+- [User Management](https://help.radiantsecurity.ai/manage-radiant/organization-settings/user-management.md): Create, edit, and delete users in Radiant.
+- [Cases](https://help.radiantsecurity.ai/manage-radiant/organization-settings/cases.md): Control how Radiant creates, titles, summarizes, and closes cases automatically
+- [User Settings](https://help.radiantsecurity.ai/manage-radiant/user-settings.md)
+- [Account Notifications](https://help.radiantsecurity.ai/manage-radiant/user-settings/account-notifications.md): Configure your account notification settings in Radiant Security.
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://help.radiantsecurity.ai/welcome-to-radiant/what-is-radiant-security.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

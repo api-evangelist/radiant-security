@@ -1,8 +1,28 @@
 aid: radiant-security
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/radiant-security.png
 name: Radiant Security
-description: Radiant Security is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Radiant Security is an AI-powered Security Operations Center (SOC) platform that automates
+  alert triage, investigation, and response so security teams can scale coverage without adding
+  headcount. Founded in 2021 and headquartered in the SF Bay Area with offices in Tel Aviv and
+  Sao Paulo, Radiant ingests alerts from 120+ security tools across email, endpoint, identity,
+  network, cloud, insider-threat, SIEM, WAF, DLP, and OT/IoT sources, triages 100% of them with
+  transparent AI reasoning, and escalates only genuine risks to analysts. It pairs automated
+  investigation with integrated, SIEM-cost-free log management (unlimited retention with
+  customer S3 buckets) and one-click response actions. The product is delivered as a hosted SaaS
+  console; its public surface is product documentation and inbound connectors rather than a
+  developer-facing REST API.
 url: https://raw.githubusercontent.com/api-evangelist/radiant-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,51 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Security
+- Cybersecurity
+- Security Operations
+- SOC
+- Threat Detection
+- Incident Response
+- SIEM
+- Log Management
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/radiant-security-domain-security.yml
+- type: Website
+  url: https://radiantsecurity.ai/
+- type: Documentation
+  url: https://help.radiantsecurity.ai/
+- type: GettingStarted
+  url: https://help.radiantsecurity.ai/welcome-to-radiant/get-started
+- type: HelpCenter
+  url: https://help.radiantsecurity.ai/
+- type: Support
+  url: https://help.radiantsecurity.ai/welcome-to-radiant/support/get-help
+- type: Blog
+  url: https://radiantsecurity.ai/blog/
+- type: TrustCenter
+  url: https://trust.radiantsecurity.ai/
+- type: PrivacyPolicy
+  url: https://radiantsecurity.ai/privacy-policy/
+- type: TermsOfService
+  url: https://radiantsecurity.ai/service-agreement/
+- type: Login
+  url: https://app.radiantsecurity.ai/
+- type: LLMsTxt
+  url: llms/radiant-security-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
